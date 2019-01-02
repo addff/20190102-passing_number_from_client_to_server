@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <netdb.h> 
 #include <netinet/in.h> 
 #include <stdlib.h> 
@@ -31,7 +32,7 @@ void func(int sockfd)
 	printf("\n Number: %d\n", shahadan1);
 
 	shahadan2 = shahadan1 + 100;
-	printf"\n 100 + %d = %d\n", shahadan1, shahadan2);		
+	printf("\n 100 + %d = %d\n", shahadan1, shahadan2);		
  
         bzero(buff, MAX); 
         n = 0; 

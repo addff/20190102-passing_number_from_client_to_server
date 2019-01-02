@@ -1,7 +1,10 @@
 commands to proceed
 > gcc server.c -o s..
+
 > ./ s..
+
 > gcc client.c -o c..
+
 > ./ c..
 
 

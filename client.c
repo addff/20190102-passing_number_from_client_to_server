@@ -13,7 +13,7 @@ void func(int sockfd)
     int n; 
     for (;;) { 
         bzero(buff, sizeof(buff)); 
-        printf("Enter the string : "); 
+        printf("\nThis program will not check either string or number. Please behave.\nThis program also can loop if you answer on the server side -good luck! \nEnter the number : "); 
         n = 0; 
         while ((buff[n++] = getchar()) != '\n') 
             ; 

@@ -12,5 +12,7 @@ then create file
 .gitignore
 
 and don't forget to type in .gitignore file with
+
 a.out
+
 *..
